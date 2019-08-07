@@ -169,22 +169,6 @@ public class DealActivity extends AppCompatActivity {
 
     }
 
-    //@Override
-    //protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-       // super.onActivityResult(requestCode, resultCode, data);
-        //if (requestCode == PICTURE_RESULT && resultCode == RESULT_OK){
-          //  Uri imageUri = data.getData();
-           // StorageReference ref = FirebaseUtil.mStorageRef.child(imageUri.getLastPathSegment());
-            //ref.putFile(imageUri).addOnSuccessListener(this, new OnSuccessListener<UploadTask.TaskSnapshot>() {
-              //  @Override
-               // public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                //    String url = taskSnapshot.getDownloadUrl.toString();
-                 //   deal.setImageUrl(url);
-
-                //}
-            //});
-        //}
-    //}
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
